@@ -1,0 +1,159 @@
+/* 
+Positive R. Test Locations - Main CSS
+Created: 21/01/2022
+Last Update: 03/12/2022
+Author: Gabriel Caroprese
+*/
+#ik_prt_location_map_config_form input[type=text], #ik_prt_location_map_config_form input[type=email], #ik_prt_location_map_config_form input[type=password], #ik_prt_location_map_config_form select{
+    width: 215px;
+    margin-top: 2px;    
+}
+#ik_prt_location_existing_records th .sorting-indicator, #ik_prt_location_existing_records th.sorted .sorting-indicator {
+    visibility: visible! important;
+    min-width: 7px;
+}
+#ik_prt_location_existing_records .sorting-indicator{
+    display: none;
+}
+#ik_prt_location_existing_records .sorted .sorting-indicator{
+    display: block;
+    float: right;
+}
+#ik_prt_location_existing_records th .sorting {
+    cursor: pointer;
+}
+#ik_prt_location_existing_records th.sorted{
+    background: #dddd;
+}
+#ik_prt_location_existing_records .orderitem .sorting{
+    display: flex;
+    padding: 0 4px;
+    cursor: pointer;
+    color: #2271b1;
+}
+#ik_prt_location_existing_records .data_records_list{
+    font-size: 20px;
+    position: relative;
+    top: 4px;
+    margin-left: 20px;
+}
+table#ik_prt_location_existing_records{
+    width: 100%;
+}
+#ik_prt_location_existing_records thead tr, #ik_prt_location_existing_records tfoot tr{
+    background: #fff;
+}
+#ik_prt_location_existing_records tbody tr{
+    background-color: #f6f7f7;
+}
+
+#ik_prt_location_existing_records th, #ik_prt_location_existing_records td{
+    padding: 11px! important;
+    text-align: center;
+}
+#ik_prt_location_existing_records th, #ik_prt_location_existing_records td{
+    padding: 11px! important;
+    text-align: center;
+}
+#ik_prt_location_existing_records tr td {
+    border-left: 1px solid #fff;
+}
+#ik_prt_location_existing_records tr td:first-child {
+    border-left-width: 0px;
+}
+#ik_prt_location_existing_records tbody tr:nth-child(2n+1) {
+    background: #eee;
+}
+#ik_prt_location_existing_records tbody tr:nth-child(2n+2) {
+    background: #ddd;
+}
+.ik_prt_location_pages{
+    display: block;
+    margin: 20px 0;
+}
+.ik_prt_location_pages a {
+    padding: 5px 12px;
+    margin: 3px;
+    text-decoration: none;
+    background: #fff;
+    font-size: 15px;
+}
+.ik_prt_location_pages a.actual_page {
+    background: #2271b1;
+    color: #fff;
+}
+#ik_prt_location_filter_box{
+    display: flow-root;
+    position: relative;
+    top: -14px;
+}
+#ik_prt_location_existing_records .orderthis{
+    cursor: pointer;
+}
+#ik_prt_location_existing_records .orderthis.sorted.shortth{
+    min-width: 36px;
+}
+#ik_prt_location_existing_records .orderthis.sorted.mediumth{
+    min-width: 74px;
+}
+#ik_prt_location_existing_records .orderthis.sorted.longth{
+    min-width: 95px;
+}
+#ik_prt_location_existing_records .search-filter-csv{
+    width: 100%;
+    display: inline-block;
+    padding: 30px 0 15px;
+}
+#ik_prt_location_existing_records .search-box{
+    width: 30%;
+    float: left;
+    min-width: 260px;
+}
+#ik_prt_location_existing_records .filter-date{
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+#ik_prt_location_existing_records .export-csv{
+    width: 31%;
+    float: left;
+    text-align: right;
+    min-width: 220px;
+}
+#ik_prt_location_existing_records .filter-date input[type=date]:before{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: -9px;
+}
+#ik_prt_location_existing_records .date_filter_from:before{
+    content: 'From:';
+}
+#ik_prt_location_existing_records .date_filter_to:before{
+    content: 'To:';
+}
+
+#ik_prt_location_map_config .ik_recaptcha_radio_options label{
+    display: block;
+}
+@media (min-width: 768px){
+    #ik_prt_location_existing_records .filter-date{
+        min-width: 500px;
+    }
+}
+@media (min-width: 980px){
+    #ik_prt_location_existing_records, #ik_prt_location_map_add_records{
+        float: left;
+        padding: 25px;
+    }
+    #ik_prt_location_map_add_records{
+        max-width: 400px;
+    }
+    #ik_prt_location_existing_records{
+        margin-top: 15px;
+    }
+}
+@media (max-width: 980px){
+    #ik_prt_location_existing_records{
+        margin-top: 70px;
+    }
+}
